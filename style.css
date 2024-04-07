@@ -1,23 +1,125 @@
-body{
-     background-color: lightslategray;
+.head{
+     display: flex;
+     justify-content: center;
 }
 
-.body{
+h1{
+     background-color: aqua;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     padding: 10px;
+     border: 2px dotted;
+     border-radius: 10px;
+     text-shadow: 20px white;
+     box-shadow: 20px black;
+}
+
+.sec{
      display: flex;
-     flex-direction: column;
-     gap: 50px;
      justify-content: space-around;
+     padding: 20px;
+}
+
+.user,.computer{
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     background-color: brown;
+     padding: 10px;
+     border-radius: 20px;
+}
+
+.text,.chose1,.chose2,.result,.cicn{
+     font-family: fantasy;
+     font-size: 20px;
+}
+
+.cicn{
+     display: flex;
      align-items: center;
 }
 
-.container,.main{
-     margin-top: 20px;
-     background-color: navajowhite;
-     padding: 10px;
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     font-weight: bolder;
-     font-size: 28px;
-     border: 5px solid white;
-     box-shadow: 3px  3px black;
+#vs{
+     border-radius: 20px;
 }
 
+.vs{
+     background-color: black;
+}
+
+.choose{
+     background-color: burlywood;
+     display: flex;
+     align-items: center;
+     padding: 20px;
+     border-radius: 20px;
+     font-family: cursive;
+     font-size: 26px;
+}
+
+.third{
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+     margin-top: 20px;
+}
+
+#rock,#paper,#scissor{
+     cursor: pointer;
+     border-radius: 20px;
+}
+
+button{
+     border-radius: 20px;
+}
+
+.fourth{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 50px;
+}
+
+.use,.comp{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     background-color: lightcoral;
+     padding: 10px;
+     border-radius: 20px;
+}
+
+.last{
+     display: flex;
+     justify-content: center;
+     padding: 50px;
+}
+
+.result{
+     font-size: 30px;
+}
+
+button{
+     background-color: blueviolet;
+}
+
+body {
+     margin: 0;
+     overflow: hidden;
+     background: black;
+ }
+ 
+ #floatingbubbles {
+     width: 100%;
+     height: 100%;
+ }
+
+.result{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 50px;
+     flex-wrap: wrap;
+}
+
+#resicn{
+     padding: 20px;
+}
