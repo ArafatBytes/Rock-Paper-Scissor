@@ -7,14 +7,67 @@
      <link href="style.css" rel="stylesheet"> 
 </head>
 <body>
-     <script src="style.js"></script>
      <div class="body">
-          <div class="container">
-               Rock Paper Scissor Challenge !
-          </div>
-          <div class="main">
-               <img src="image.png">
-          </div>
+       <div class="head">
+            <h1>Rock Paper Scissor Challenge</h1>
+       </div>
+       <div class="sec">
+            <div class="user">
+                 <div class="icon">
+                      <img src="user.png" height="50px" width="50px">
+                 </div>
+                 <div class="text">
+                      <span id="name"></span> Score: <span id="uscore"></span>
+                 </div>
+            </div>
+            <div class="choose">
+                 Choose Your Move!
+            </div>
+            <div class="computer">
+                 <div class="icon">
+                      <img src="comp.png" height="40px" width="40px">
+                 </div>
+                 <div class="text">
+                      COMPUTER Score: <span id="cscore"></span>
+                 </div>
+            </div>
+       </div>
+     <div class="third">
+       <button>
+         <img src="rock.png" height="80px" width="80px" id="rock">
+       </button>
+       <button>
+         <img src="paper.png" height="80px" width="80px" id="paper">
+       </button>
+       <button>
+         <img src="scissor.webp" height="80px" width="80%" id="scissor">
+       </button>
      </div>
-</body>
+     <div class="fourth" style="display: flex; justify-content: space-around;">
+       <div class="use" style="display: flex; align-items: center; background-color: brown;">
+         <div class="uicn">
+           <img src="user.png" height="100px" width="100px">
+         </div>
+         <div class="chose1">
+           You chosed:
+         </div>
+       </div>
+       <div class="vs">
+          <img src="vs.avif" height="120px" width="120px" id="vs">
+       </div>
+       <div class="comp" style="display: flex;align-items: center; background-color: brown;">
+         <div class="cicn">
+           <img src="comp.png" height="100px" width="100px">
+         </div>
+         <div class="chose2">
+            Computer chosed:
+         </div>
+       </div>
+     </div>
+     <div class="result">
+
+     </div>
+   <script src="style.js"></script>
+   <canvas id="floatingbubbles"></canvas>
+   </body>
 </html>
